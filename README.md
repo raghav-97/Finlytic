@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Table of Contents 
 
-## Getting Started
+- [Introduction](#introduction)
+    - [Finlytic](#finlytic)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+    - [Prerequisites](#prerequisites)
+    - [Steps](#steps)
+- [Contact](#contact)
+- [Customization](#customization)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Introduction
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Finlytic 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+A simple portfolio tracker web application to help users manage and track their stock portfolio efficiently. This project enables users to monitor their investments, view key metrics, and stay updated with real-time stock prices.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+1. **Manage Stock Holdings**
+   - Add, view, edit, and delete stock holdings with ease.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Real-Time Portfolio Tracking**
+   - Automatically calculate the total portfolio value based on live stock prices.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Dashboard Overview**
+   - Gain insights into your portfolio with:
+     - Total portfolio value
+     - Top-performing stock
+     - Portfolio distribution and allocation
 
-## Deploy on Vercel
+## Tech Stack
+    - [Next.js](https://nextjs.org)
+    - shadcn/ui(https://ui.shadcn.com/) : Component Library
+    - [clerk](https://clerk.com/) : Used for User Management
+    - [Hono](https://hono.dev/) : Used for route APIs
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Installation
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) installed on your system
+- [npm](https://www.npmjs.com/)
+
+### Steps
+1. Fork the Repository
+
+2. Clone the repository:
+   ```
+   git clone https://github.com/your-username/Finlytic
+   cd simple-portfolio-tracker
+   ```
+
+3. Install Dependencies 
+   ```
+   npm install
+   ```
+
+4. Set up environment variables: 
+    - Create a `.env.local` file in the root directory and configure the following variables:
+    ```
+    Clerk, next key here
+    ```
+
+5. Start the development server:
+    ```
+    npm run dev
+    ```
+   Open [http://localhost:3000](http://localhost:3000) 
+
+
+## Contact
+For questions or feedback, feel free to reach out:
+
+Email: 
+GitHub: 
+
+
+## Customization:
+1. Replace `your-username`, `your-email`, and placeholder API information with your actual details.
