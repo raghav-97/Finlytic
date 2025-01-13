@@ -33,10 +33,10 @@ A simple portfolio tracker web application to help users manage and track their 
      - Portfolio distribution and allocation
 
 ## Tech Stack
-    - [Next.js](https://nextjs.org)
-    - shadcn/ui(https://ui.shadcn.com/) : Component Library
-    - [clerk](https://clerk.com/) : Used for User Management
-    - [Hono](https://hono.dev/) : Used for route APIs
+- [Next.js](https://nextjs.org)
+- [shadcn/ui](https://ui.shadcn.com/) : Component Library
+- [clerk](https://clerk.com/) : Used for User Management
+- [Hono](https://hono.dev/) : Used for route APIs
 
 
 ## Installation
