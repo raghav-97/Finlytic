@@ -12,15 +12,15 @@ import path from "path";
 const routes = [
   {
     href: "/",
-    label: "Dashboard",
+    label: "Overview",
   },
   {
     href: "/",
-    label: "Watchlist",
+    label: "Features",
   },
   {
     href: "/",
-    label: "Help/Support",
+    label: "Support",
   },
 ];
 
